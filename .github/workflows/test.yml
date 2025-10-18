@@ -1,0 +1,27 @@
+name: Test Pipeline
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Code
+        run: echo "Check Out Code"
+    
+      - name: Set Up Project
+        run: echo "Set Up Project"
+          
+      - name: Install Dependencies
+        run: echo "Install Dependencies"
+        
+      - name: Run Tests
+        run: echo "Run Tests"
