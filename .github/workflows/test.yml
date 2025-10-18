@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Code
-        uses: echo "Check Out Code"
+        run: echo "Check Out Code"
     
       - name: Set Up Node.js
-        uses: echo "Set Up Node.js"
+        run: echo "Set Up Node.js"
           
       - name: Install Dependencies
         run: echo "Install Dependencies"
