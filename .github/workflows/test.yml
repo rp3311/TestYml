@@ -14,8 +14,8 @@ jobs:
       - name: Check Out Code
         run: echo "Check Out Code"
     
-      - name: Set Up Node.js
-        run: echo "Set Up Node.js"
+      - name: Set Up Project
+        run: echo "Set Up Project"
           
       - name: Install Dependencies
         run: echo "Install Dependencies"
