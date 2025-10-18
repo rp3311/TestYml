@@ -1,0 +1,25 @@
+name: Test For Master
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Code
+        run: echo "Check Out Code"
+    
+      - name: Set Up Project
+        run: echo "Set Up Project"
+          
+      - name: Install Dependencies
+        run: echo "Install Dependencies"
+        
+      - name: Run Tests
+        run: echo "Run Tests"
